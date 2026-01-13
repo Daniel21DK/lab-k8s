@@ -1,0 +1,120 @@
+Starting with UID='0', GID='0'
+Running DB migrations
+Created group 'everyone' through seed
+Created onboarding step through seed
+Created serverSetting through seed key=analytics
+Created serverSetting through seed key=crawlingAndIndexing
+Created serverSetting through seed key=board
+Created serverSetting through seed key=user
+Created serverSetting through seed key=appearance
+Created serverSetting through seed key=culture
+Created serverSetting through seed key=search
+Created 3 default search engines through seeding process
+Set Homarr docs as the default search engine
+Created 8 default integrations through seeding process
+Migrated release widget providers to integrations count="0"
+Migrating app items with showDescriptionTooltip to descriptionDisplayMode count=0
+Migrated app items with showDescriptionTooltip to descriptionDisplayMode count=0
+Migration complete
+Starting internal Redis server
+21:C 13 Jan 2026 09:41:37.357 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21:C 13 Jan 2026 09:41:37.357 * Redis version=8.4.0, bits=64, commit=00000000, modified=1, pid=21, just started
+21:C 13 Jan 2026 09:41:37.357 * Configuration loaded
+21:M 13 Jan 2026 09:41:37.358 * monotonic clock: POSIX clock_gettime
+21:M 13 Jan 2026 09:41:37.358 * Running mode=standalone, port=6379.
+21:M 13 Jan 2026 09:41:37.359 * Server initialized
+21:M 13 Jan 2026 09:41:37.359 * Ready to accept connections tcp
+▲ Next.js 16.1.1
+- Local:         http://homarr-58c75bfd5b-r89tx:3000
+- Network:       http://homarr-58c75bfd5b-r89tx:3000
+
+✓ Starting...
+✓ Ready in 351ms
+❌ Invalid environment variables: [
+  {
+    origin: 'string',
+    code: 'too_small',
+    minimum: 64,
+    inclusive: true,
+    path: [ 'SECRET_ENCRYPTION_KEY' ],
+    message: 'SECRET_ENCRYPTION_KEY has to be 64 characters, please generate a 64 character secret in hex format or use the following: "44383068318e1b9089653929cb7ce7a10ee1c2d4c33bead81c792e61938de4a6"'
+  },
+  {
+    origin: 'string',
+    code: 'invalid_format',
+    format: 'regex',
+    pattern: '/^[0-9a-fA-F]{64}$/',
+    path: [ 'SECRET_ENCRYPTION_KEY' ],
+    message: 'SECRET_ENCRYPTION_KEY must only contain hex characters, please generate a 64 character secret in hex format or use the following: "44383068318e1b9089653929cb7ce7a10ee1c2d4c33bead81c792e61938de4a6"'
+  }
+]
+/app/apps/tasks/tasks.cjs:650588
+    throw new Error("Invalid environment variables");
+    ^
+
+Error: Invalid environment variables
+    at /app/apps/tasks/tasks.cjs:650588:11
+    at createEnv (/app/apps/tasks/tasks.cjs:650593:29)
+    at createEnv2 (/app/apps/tasks/tasks.cjs:650626:10)
+    at createEnv3 (/app/apps/tasks/tasks.cjs:650677:31)
+    at Object.<anonymous> (/app/apps/tasks/tasks.cjs:674315:11)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+Node.js v24.12.0
+❌ Invalid environment variables: [
+  {
+    origin: 'string',
+    code: 'too_small',
+    minimum: 64,
+    inclusive: true,
+    path: [ 'SECRET_ENCRYPTION_KEY' ],
+    message: 'SECRET_ENCRYPTION_KEY has to be 64 characters, please generate a 64 character secret in hex format or use the following: "b3fd1c97946cdfa65f8efc52a99ac623d226776544e243d5cff7b0ecab060769"'
+  },
+  {
+    origin: 'string',
+    code: 'invalid_format',
+    format: 'regex',
+    pattern: '/^[0-9a-fA-F]{64}$/',
+    path: [ 'SECRET_ENCRYPTION_KEY' ],
+    message: 'SECRET_ENCRYPTION_KEY must only contain hex characters, please generate a 64 character secret in hex format or use the following: "b3fd1c97946cdfa65f8efc52a99ac623d226776544e243d5cff7b0ecab060769"'
+  }
+]
+/app/apps/websocket/wssServer.cjs:635709
+    throw new Error("Invalid environment variables");
+    ^
+
+Error: Invalid environment variables
+    at /app/apps/websocket/wssServer.cjs:635709:11
+    at createEnv (/app/apps/websocket/wssServer.cjs:635714:29)
+    at createEnv2 (/app/apps/websocket/wssServer.cjs:635747:10)
+    at createEnv3 (/app/apps/websocket/wssServer.cjs:635798:31)
+    at Object.<anonymous> (/app/apps/websocket/wssServer.cjs:659050:12)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+Node.js v24.12.0
+❌ Invalid environment variables: [
+  {
+    origin: 'string',
+    code: 'too_small',
+    minimum: 64,
+    inclusive: true,
+    path: [ 'SECRET_ENCRYPTION_KEY' ],
+    message: 'SECRET_ENCRYPTION_KEY has to be 64 characters, please generate a 64 character secret in hex format or use the following: "b95525e25a0dae79de3d057d2490eb7bd99cba6e0c4958351dec0dd7e35188d9"'
+  },
+  {
+    origin: 'string',
+    code: 'invalid_format',
+    format: 'regex',
+    pattern: '/^[0-9a-fA-F]{64}$/',
+    path: [ 'SECRET_ENCRYPTION_KEY' ],
+    message: 'SECRET_ENCRYPTION_KEY must only contain hex characters, please generate a 64 character secret in hex format or use the following: "b95525e25a0dae79de3d057d2490eb7bd99cba6e0c4958351dec0dd7e35188d9"'
+  }
+]
